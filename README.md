@@ -6,7 +6,7 @@ Each code file is dedicated to a specific pattern, including the butterfly, diam
 
 ## Patterns
 
-1. Butterfly Pattern:[butterfly_pattern.java]
+1. Butterfly Pattern:[Butterfly_pattern.java](Butterfly_pattern.java)
 
    - This program prints a beautiful butterfly pattern using asterisks (\*).
    - Example output:
@@ -25,7 +25,7 @@ Each code file is dedicated to a specific pattern, including the butterfly, diam
 
      ```
 
-2. Diamond Shape Pattern: [diamond.java]
+2. Diamond Shape Pattern: [diamond.java](diamond.java)
 
    - This program prints a diamond shape pattern using spaces and asterisks (\*).
    - Example output:
@@ -39,7 +39,7 @@ Each code file is dedicated to a specific pattern, including the butterfly, diam
             *
      ```
 
-3. Star Patterns:[star_patterns.java]
+3. Star Patterns:[star_patterns.java](star_patterns.java)
    - This program demonstrates different star patterns such as the right triangle, left triangle, and pyramid.
    - Example output (right triangle):
      ```
@@ -66,8 +66,7 @@ Each code file is dedicated to a specific pattern, including the butterfly, diam
         * * * * *
    
    ```
-
-4. Number Patterns: [number_patterns.java]
+4. Number Patterns: [Numbers_patterns.java](Numbers_patterns.java)
    - This program showcases various number patterns including the number pyramid and number staircase.
    - Example output (number pyramid):
      ```
@@ -108,7 +107,7 @@ Each code file is dedicated to a specific pattern, including the butterfly, diam
 
    ```
 
-5. Solid and Hollow Rhombus Patterns:[rhombus.java]
+5. Solid and Hollow Rhombus Patterns:[rhombus_pattern.java](rhombus_pattern.java)
 
 - Solid Rhombus:
 
