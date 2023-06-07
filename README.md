@@ -50,62 +50,63 @@ Each code file is dedicated to a specific pattern, including the butterfly, diam
      * * * * *
      ```
 
-```
+     ```
+               *
+             * *
+           * * *
+         * * * *
+       * * * * *
+    ```
+
+   ```
             *
-          * *
-        * * *
-      * * * *
-    * * * * *
-```
+           * *
+          * * *
+         * * * *
+        * * * * *
+   
+   ```
 
-```
-      *
-     * *
-    * * *
-   * * * *
-  * * * * *
-```
-
-4. Number Patterns: [numbers.java]
+4. Number Patterns: [number_patterns.java]
    - This program showcases various number patterns including the number pyramid and number staircase.
    - Example output (number pyramid):
-     `         1
-      2 2
-     3 3 3
-    4 4 4 4
-   5 5 5 5 5`
+     ```
+          1
+         2 2
+        3 3 3
+       4 4 4 4
+      5 5 5 5 5
+      ```
      #Flyod's Triangle
 
-```
- 1
-2 3
-4 5 6
-7 8 9 10
-11 12 13 14 15
+     ```
+         1 
+         2 3
+         4 5 6
+         7 8 9 10
+         11 12 13 14 15
+      ```
 
-```
+   # 0-1 pattern
 
-# 0-1 pattern
+      ```
+      1
+      0 1
+      1 0 1
+      0 1 0 1
+      1 0 1 0 1
+      ```
 
-```
-1
-0 1
-1 0 1
-0 1 0 1
-1 0 1 0 1
+   # palindromic numbers print
 
-```
+   ```
+       1
+      212
+     32123
+    4321234
+   543212345
 
-# palindromic numbers print
-
-```
-    1
-   212
-  32123
- 4321234
-543212345
-
-```
+   ```
 
 5. Solid and Hollow Rhombus Patterns:[rhombus.java]
 
