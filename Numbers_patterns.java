@@ -100,6 +100,21 @@ public class Numbers_patterns {
         System.out.println();
     }
 
+    // Pascal's Triangle
+    public static void Pascal(int rows) {
+        for (int i = 0; i < rows; i++) {
+            int number = 1;
+            System.out.printf("%" + (rows - i) * 2 + "s", "");
+
+            for (int j = 0; j <= i; j++) {
+                System.out.printf("%4d", number);
+                number = number * (i - j) / (j + 1);
+            }
+
+            System.out.println();
+        }
+
+    }
     // main function starts
 
     public static void main(String[] args) {
@@ -114,7 +129,7 @@ public class Numbers_patterns {
         floyds_triangle(n);
         zero_one_triangle(n);
         palindrome_numbers_pyramid(n);
-
+        Pascal(n);
     }
 }
-// Class ends 
+// Class ends
