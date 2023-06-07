@@ -10,11 +10,11 @@ https://github.com/Manjeet-Agarwal/Patterns-in-Java.git
 
 
 2. Explore the Patterns: Once you have cloned the repository, navigate to the `patterns-in-java` directory. You will find the following code files:
-- [butterfly_pattern.java](butterfly_pattern.java)
+- [Butterfly_pattern.java](Butterfly_pattern.java)
 - [diamond.java](diamond.java)
 - [star_patterns.java](star_patterns.java)
-- [number_patterns.java](number_patterns.java)
-- [rhombus.java](rhombus.java)
+- [Numbers_patterns.java](Numbers_patterns.java)
+- [rhombus_pattern.java](rhombus_pattern.java)
 
 3. Run the Code: Open each code file in your preferred Java development environment or text editor. Take a moment to review the code and understand the logic behind each pattern. Then, compile and run the code to see the pattern in action. You can modify the code to experiment with different variations of the patterns or customize them according to your preferences.
 
