@@ -1,9 +1,9 @@
 import java.util.*;
 
-public class diamond {
+public class diamond{
 // to print diamond shaped pattern
 
-    public static void diamond_pattern(int n){
+    public static void Diamond_pattern(int n){
                //Upper half
                for (int i =1; i<=n;i++){
                    // spaces - (n-i)
@@ -34,7 +34,8 @@ public class diamond {
             System.out.print("What's the diamond size? (Integer value only): ");
             int n = sc.nextInt();
             System.out.println();   
-               diamond_pattern(n);
+            sc.close();
+               Diamond_pattern(n);
            }
     
 }

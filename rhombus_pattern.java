@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class rhombus {
+public class rhombus_pattern {
 
     // 1). Hollow Rectangle: It is a rectangle that have the values (*) on Its
     // boundary locations only. and the middle cells are empty.
@@ -23,6 +23,7 @@ public class rhombus {
             }
             System.out.println();
         }
+        System.out.println();
 
     }
 
@@ -68,6 +69,7 @@ public class rhombus {
         System.out.println("Enter the size/dimension of rhombus: ");
         int n = sc.nextInt();
         System.out.println();
+        sc.close();
         // hollow_rectangle(8,7);
         solid_rhombus(n);
         hollow_rhombus(n);

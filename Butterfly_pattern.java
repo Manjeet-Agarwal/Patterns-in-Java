@@ -1,5 +1,5 @@
 import java.util.*;
-public class Butterfly{
+public class Butterfly_pattern{
    public static void butterfly(int n){
        // upper half
        for(int i=1; i<=n;i++){
@@ -40,6 +40,7 @@ public class Butterfly{
     System.out.print(" Enter the number: ");
     int n = sc.nextInt();
     System.out.println();
+    sc.close();
        butterfly(n);
    }
 }

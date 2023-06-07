@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class star_pattern {
+public class star_patterns {
 
     // half star pyramid
 
@@ -8,7 +8,7 @@ public class star_pattern {
 
         for (int line = 1; line <= n; line++) {
             for (int star = 1; star <= line; star++) {
-                System.out.print("*");
+                System.out.print("* ");
             }
             System.out.println();
         }
@@ -20,7 +20,7 @@ public class star_pattern {
     public static void inverted_star(int n) {
         for (int line = 1; line <= n; line++) {
             for (int star = 1; star <= n - line + 1; star++) {
-                System.out.print("*");
+                System.out.print("* ");
             }
             System.out.println();
         }
@@ -32,10 +32,10 @@ public class star_pattern {
     public static void inv_rotd_half_star(int n) {
         for (int lines = 1; lines <= n; lines++) {
             for (int spaces = lines; spaces < n; spaces++) {
-                System.out.print(" ");
+                System.out.print("  ");
             }
             for (int star = 1; star <= lines; star++) {
-                System.out.print("*");
+                System.out.print("* ");
 
             }
             System.out.println();
@@ -64,10 +64,11 @@ public class star_pattern {
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter the number: ");
         int n = sc.nextInt();
+        sc.close();
         System.out.println();
-        // half_star(n);
-        // inverted_star(n);
-        // inv_rotd_half_star(n);
-        // star_pyramid(n);
+        half_star(n);
+        inverted_star(n);
+        inv_rotd_half_star(n);
+        star_pyramid(n);
     }
 }

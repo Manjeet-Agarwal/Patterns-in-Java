@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class Numbers {
+public class Numbers_patterns {
 
     // Half Pyramid Pattern
 
@@ -11,6 +11,7 @@ public class Numbers {
             }
             System.out.println();
         }
+        System.out.println();
     }
 
     // Full Pyramid Pattern
@@ -27,6 +28,7 @@ public class Numbers {
             }
             System.out.println();
         }
+        System.out.println();
 
     }
 
@@ -41,6 +43,7 @@ public class Numbers {
             }
             System.out.println();
         }
+        System.out.println();
 
     }
 
@@ -55,6 +58,7 @@ public class Numbers {
             }
             System.out.println();
         }
+        System.out.println();
     }
 
     // 0-1 Triangle
@@ -70,6 +74,7 @@ public class Numbers {
             }
             System.out.println();
         }
+        System.out.println();
     }
 
     // palindrome numbers pyramid
@@ -92,6 +97,7 @@ public class Numbers {
             }
             System.out.println();
         }
+        System.out.println();
     }
 
     // main function starts
@@ -101,12 +107,13 @@ public class Numbers {
         System.out.print(" Enter the number: ");
         int n = sc.nextInt();
         System.out.println();
-        // half_pyramid(n);
-        // number_pyramid(n);
-        // inverted_rotated_half_pyramid_withNumbers(n);
-        // floyds_triangle(n);
-        // zero_one_triangle(n);
-        // palindrome_numbers_pyramid(n);
+        sc.close();
+        half_pyramid(n);
+        number_pyramid(n);
+        inverted_rotated_half_pyramid_withNumbers(n);
+        floyds_triangle(n);
+        zero_one_triangle(n);
+        palindrome_numbers_pyramid(n);
 
     }
 }
