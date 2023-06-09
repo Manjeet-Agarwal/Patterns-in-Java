@@ -1,6 +1,16 @@
+import java.util.*;
+
 public class spiral_nos_pattern {
     public static void main(String[] args) {
-        spiral(5,10);
+    Scanner sc = new Scanner(System.in);
+    System.out.print(" Enter the number of rows: ");
+    int rows = sc.nextInt();
+    System.out.println();
+    System.out.print(" Enter the number of columns: ");
+    int columns = sc.nextInt();
+    sc.close();
+        
+    spiral(rows,columns);
     }
 
     public static void spiral(int rows, int cols) {
