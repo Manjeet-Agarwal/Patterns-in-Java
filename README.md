@@ -136,44 +136,45 @@ Each code file is dedicated to a specific pattern, including the butterfly, diam
 6. arrowhead pattern : [arrow_head_pattern](arrow_head_pattern)
 
 Example Output: 
-      ```
-      *
-      **
-      ***
-      ****
-      ***
-      **
-      *
-      ```
+```
+*
+**
+***
+****
+***
+**
+*
+```
       
 7. hourglass pattern: [hourglass.java](hourglass.java)
 
 
 Example Output: 
-      ```
-      *****
-       ***
-        *
-       ***
-      *****
-      ```
+```
+*****
+ ***
+  *
+ ***
+*****
+```
     
  8. sprial number : [spiral_nos_pattern](spiral_nos_pattern)
 
 Example Output:
 
-      ```
-      1   2   3   4   5 
-      16  17  18  19   6 
-      15  24  25  20   7 
-      14  23  22  21   8 
-      13  12  11  10   9 
-      ```
+ ```
+1   2   3   4   5 
+16  17  18  19   6 
+15  24  25  20   7 
+14  23  22  21   8 
+13  12  11  10   9      
+
+```
       
 9. Hollow Diamond: [hollow_diamond.java](hollow_pattern.java)
 
 Example Output: 
-   ```
+```
      *
     * *
    *   *
@@ -183,7 +184,7 @@ Example Output:
    *   *
     * *
      *
-  ```
+```
      
 Feel free to explore each code file to understand the logic behind the patterns and run them in your Java development environment.
 
