@@ -1,6 +1,9 @@
+import java.util.*;
 public class hourglass {
     public static void main(String[] args) {
-        Hourglass(9);
+        Scanner sc = new Scanner(System.in);
+        int size = sc.nextInt();
+        sc.close();
     }
 
     public static void Hourglass(int size) {
